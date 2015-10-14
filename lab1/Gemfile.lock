@@ -1,0 +1,41 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chef-config (12.5.1)
+      mixlib-config (~> 2.0)
+      mixlib-shellout (~> 2.0)
+    ffi (1.9.10)
+    ffi-yajl (2.2.2)
+      libyajl2 (~> 1.2)
+    ipaddress (0.8.0)
+    libyajl2 (1.2.0)
+    mime-types (2.6.2)
+    mixlib-cli (1.5.0)
+    mixlib-config (2.2.1)
+    mixlib-log (1.6.0)
+    mixlib-shellout (2.2.1)
+    ohai (8.7.0)
+      chef-config (>= 12.5.0.alpha.1, < 13)
+      ffi (~> 1.9)
+      ffi-yajl (~> 2.2)
+      ipaddress
+      mime-types (~> 2.0)
+      mixlib-cli
+      mixlib-config (~> 2.0)
+      mixlib-log
+      mixlib-shellout (~> 2.0)
+      rake (~> 10.1)
+      systemu (~> 2.6.4)
+      wmi-lite (~> 1.0)
+    rake (10.4.2)
+    systemu (2.6.5)
+    wmi-lite (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ohai
+
+BUNDLED WITH
+   1.10.6
